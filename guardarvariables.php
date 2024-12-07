@@ -1,0 +1,10 @@
+<?php
+session_start();
+$_SESSION['correocli']=addslashes(stripslashes($_POST['correo']));
+$_SESSION['nombrecli']=addslashes(stripslashes($_POST['nombre']));
+$_SESSION['apellidocli']=addslashes(stripslashes($_POST['apellido']));
+$_SESSION['domiciliocli']=addslashes(stripslashes($_POST['domicilio']));
+$_SESSION['dispositivocli']=addslashes(stripslashes($_POST['dispositivo']));
+$_SESSION['detallecli']=addslashes(stripslashes($_POST['detalle']));
+$_SESSION['idcli']=addslashes(stripslashes($_POST['id']));
+?>

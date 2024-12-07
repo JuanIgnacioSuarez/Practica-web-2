@@ -1,0 +1,57 @@
+
+header {
+    transition: box-shadow 0.7s ease;
+}
+
+header:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+header{
+    background-color: #111;
+    color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #111;
+    color: red;
+    padding: 20px;
+    margin:20px;
+    text-align: center;
+    align-content: center;
+    border:solid darkgoldenrod;
+}
+
+
+section{
+	margin:20px;
+	padding: 20px;
+	border: solid skyblue;
+	text-align: center;
+	content: center;
+	background-color: skyblue;
+}
+
+.enfila{
+	margin:20px;
+	padding: 20px;
+	border: solid skyblue;
+	text-align: center;
+	content: center;
+	background-color: skyblue;
+	display: flex;
+}
+
+
+div{
+	align-content: center;
+	text-align: center;
+}
+
+img{
+	width: 100px;
+	height: auto;
+	align-content: center;
+}
